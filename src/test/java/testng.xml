@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross-Platform" parallel="classes" thread-count="2">
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Search">-->
+<!--        <classes>-->
+<!--            <class name="SearchIngredientsTest">-->
+<!--                <methods>-->
+<!--                    <include name="searchIngredientsTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Search Alcohol">-->
+<!--        <classes>-->
+<!--            <class name="SearchIngredientsTest">-->
+<!--                <methods>-->
+<!--                    <include name="isAlcoholic"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Search non-Alcoholic">-->
+<!--        <classes>-->
+<!--            <class name="SearchIngredientsTest">-->
+<!--                <methods>-->
+<!--                    <include name="isNotAlcoholic"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--        <test verbose="2" preserve-order="true"-->
+<!--              name="Search Schema">-->
+<!--            <classes>-->
+<!--                <class name="SearchIngredientsTest">-->
+<!--                    <methods>-->
+<!--                        <include name="searchCocktailTestSchemaValidation"/>-->
+<!--                    </methods>-->
+<!--                </class>-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Search CockTail">-->
+<!--        <classes>-->
+<!--            <class name="SearchIngredientsTest">-->
+<!--                <methods>-->
+<!--                    <include name="searchCocktailTestSchemaValidation"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2" preserve-order="true"-->
+<!--          name="Search CockTail Does Not Exist">-->
+<!--        <classes>-->
+<!--            <class name="SearchIngredientsTest">-->
+<!--                <methods>-->
+<!--                    <include name="searchCocktailDoesNotExistTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test verbose="2" preserve-order="true"
+          name="Search CockTail Case Insensitive">
+        <classes>
+            <class name="SearchIngredientsTest">
+                <methods>
+                    <include name="cocktailSearchInsensitiveTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
