@@ -121,7 +121,7 @@ public class SearchIngredientsTest extends BaseTest {
                 .log().all()
                 .extract().response();
 
-        Response r2 = given().queryParam("s", "blue margarita")
+        Response r2 = given().queryParam("s", "BLUE margaRitA")
                 .spec(requestSpec)
                 .urlEncodingEnabled(true)
                 .when()
