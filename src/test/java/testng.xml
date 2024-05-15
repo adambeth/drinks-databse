@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="Search">
         <classes>
-            <class name="SearchIngredientsTest">
+            <class name="SearchTests">
                 <methods>
                     <include name="searchIngredientsTest"/>
                 </methods>
@@ -14,7 +14,7 @@
     <test verbose="2" preserve-order="true"
           name="Search Alcohol">
         <classes>
-            <class name="SearchIngredientsTest">
+            <class name="SearchTests">
                 <methods>
                     <include name="isAlcoholic"/>
                 </methods>
@@ -24,7 +24,7 @@
     <test verbose="2" preserve-order="true"
           name="Search non-Alcoholic">
         <classes>
-            <class name="SearchIngredientsTest">
+            <class name="SearchTests">
                 <methods>
                     <include name="isNotAlcoholic"/>
                 </methods>
@@ -34,7 +34,7 @@
         <test verbose="2" preserve-order="true"
               name="Search Schema">
             <classes>
-                <class name="SearchIngredientsTest">
+                <class name="SearchTests">
                     <methods>
                         <include name="searchCocktailTestSchemaValidation"/>
                     </methods>
@@ -44,7 +44,7 @@
     <test verbose="2" preserve-order="true"
           name="Search CockTail">
         <classes>
-            <class name="SearchIngredientsTest">
+            <class name="SearchTests">
                 <methods>
                     <include name="searchCocktailTestSchemaValidation"/>
                 </methods>
@@ -54,7 +54,7 @@
     <test verbose="2" preserve-order="true"
           name="Search CockTail Does Not Exist">
         <classes>
-            <class name="SearchIngredientsTest">
+            <class name="SearchTests">
                 <methods>
                     <include name="searchCocktailDoesNotExistTest"/>
                 </methods>
@@ -64,7 +64,7 @@
     <test verbose="2" preserve-order="true"
           name="Search CockTail Case Insensitive">
         <classes>
-            <class name="SearchIngredientsTest">
+            <class name="SearchTests">
                 <methods>
                     <include name="cocktailSearchInsensitiveTest"/>
                 </methods>

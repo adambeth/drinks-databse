@@ -10,7 +10,7 @@ import java.util.Optional;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class SearchIngredientsTest extends BaseTest {
+public class SearchTests extends BaseTest {
     
     @Test
     public static void searchIngredientsTest() {
@@ -94,7 +94,7 @@ public class SearchIngredientsTest extends BaseTest {
     }
     @Test
     public static void searchCocktailTestSchemaValidation() {
-        InputStream cocktail_schema = SearchIngredientsTest.class.getClassLoader().getResourceAsStream("schema.json");
+        InputStream cocktail_schema = SearchTests.class.getClassLoader().getResourceAsStream("schema.json");
         given().queryParam("s", "Blue Margarita")
                 .spec(requestSpec)
                 .urlEncodingEnabled(true)
