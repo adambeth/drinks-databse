@@ -17,5 +17,6 @@ mvn test
 
 ## Non functional test
 
-Load testing using the Locust with progressive rates
-Security testing using OWASP
+- Load testing using the Locust with progressive rates (https://locust.io/)
+
+- Security testing using OWASP (https://owasp.org/)
